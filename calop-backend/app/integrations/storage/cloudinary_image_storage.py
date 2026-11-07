@@ -3,11 +3,11 @@ import io
 import cloudinary
 import cloudinary.uploader
 
-from app.config import Settings
-from app.storage.base import ImageStorage, StorageError, StoredImage
+from app.core.config import Settings
+from app.integrations.storage.image_storage import ImageStorage, StorageError, StoredImage
 
 
-class CloudinaryStorage(ImageStorage):
+class CloudinaryImageStorage(ImageStorage):
     def __init__(self, settings: Settings):
         cloudinary.config(
             cloud_name=settings.cloudinary_cloud_name,
@@ -18,12 +18,12 @@ class CloudinaryStorage(ImageStorage):
 
     def upload(self, data: bytes) -> StoredImage:
         try:
-            res = cloudinary.uploader.upload(
+            upload_result = cloudinary.uploader.upload(
                 io.BytesIO(data), folder="calop/captures", resource_type="image"
             )
         except Exception as exc:
             raise StorageError(str(exc)) from exc
-        return StoredImage(url=res["secure_url"], public_id=res["public_id"])
+        return StoredImage(url=upload_result["secure_url"], public_id=upload_result["public_id"])
 
     def delete(self, public_id: str) -> None:
         try:

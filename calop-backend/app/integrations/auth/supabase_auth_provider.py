@@ -4,26 +4,27 @@ import httpx
 import jwt
 from jwt import PyJWKClient
 
-from app.auth.base import AuthError, AuthProvider, AuthSession, AuthUser
-from app.config import Settings
+from app.core.config import Settings
+from app.core.exceptions import AuthError
+from app.integrations.auth.auth_provider import AuthProvider, AuthSession, AuthUser
 
 
 class SupabaseAuthProvider(AuthProvider):
     def __init__(self, settings: Settings):
-        self._base = settings.supabase_url.rstrip("/")
-        self._issuer = f"{self._base}/auth/v1"
-        self._headers = {"apikey": settings.supabase_publishable_key}
-        self._jwks = PyJWKClient(f"{self._issuer}/.well-known/jwks.json", cache_keys=True)
+        base_url = settings.supabase_url.rstrip("/")
+        self._issuer = f"{base_url}/auth/v1"
+        self._request_headers = {"apikey": settings.supabase_publishable_key}
+        self._jwks_client = PyJWKClient(f"{self._issuer}/.well-known/jwks.json", cache_keys=True)
 
     # ---- token verification (local, via the project's public keys) ----
     def verify_token(self, token: str) -> AuthUser:
         try:
-            alg = jwt.get_unverified_header(token).get("alg")
-            if alg not in ("ES256", "RS256"):
+            algorithm = jwt.get_unverified_header(token).get("alg")
+            if algorithm not in ("ES256", "RS256"):
                 raise AuthError("Unsupported token algorithm")
-            key = self._jwks.get_signing_key_from_jwt(token).key
+            signing_key = self._jwks_client.get_signing_key_from_jwt(token).key
             claims = jwt.decode(
-                token, key, algorithms=[alg], audience="authenticated", issuer=self._issuer
+                token, signing_key, algorithms=[algorithm], audience="authenticated", issuer=self._issuer
             )
             return AuthUser(id=uuid.UUID(claims["sub"]), email=claims.get("email"))
         except AuthError:
@@ -37,21 +38,21 @@ class SupabaseAuthProvider(AuthProvider):
     def _post(self, path: str, json: dict, params: dict | None = None) -> httpx.Response:
         try:
             return httpx.post(
-                f"{self._issuer}{path}", json=json, params=params, headers=self._headers, timeout=10
+                f"{self._issuer}{path}", json=json, params=params, headers=self._request_headers, timeout=10
             )
         except httpx.HTTPError:
             raise AuthError("Auth service unavailable", 503)
 
     @staticmethod
-    def _message(resp: httpx.Response) -> str:
+    def _extract_error_message(response: httpx.Response) -> str:
         try:
-            body = resp.json()
+            body = response.json()
             return body.get("msg") or body.get("error_description") or body.get("message") or "Request failed"
         except ValueError:
             return "Request failed"
 
     @staticmethod
-    def _session(data: dict) -> AuthSession:
+    def _parse_session(data: dict) -> AuthSession:
         user = data["user"]
         return AuthSession(
             access_token=data["access_token"],
@@ -61,24 +62,24 @@ class SupabaseAuthProvider(AuthProvider):
         )
 
     def sign_up(self, email: str, password: str) -> AuthSession | None:
-        resp = self._post("/signup", {"email": email, "password": password})
-        if resp.status_code >= 400:
-            raise AuthError(self._message(resp), 400)
-        data = resp.json()
-        return self._session(data) if "access_token" in data else None
+        response = self._post("/signup", {"email": email, "password": password})
+        if response.status_code >= 400:
+            raise AuthError(self._extract_error_message(response), 400)
+        data = response.json()
+        return self._parse_session(data) if "access_token" in data else None
 
     def sign_in(self, email: str, password: str) -> AuthSession:
-        resp = self._post("/token", {"email": email, "password": password}, {"grant_type": "password"})
-        if resp.status_code >= 500:
+        response = self._post("/token", {"email": email, "password": password}, {"grant_type": "password"})
+        if response.status_code >= 500:
             raise AuthError("Auth service unavailable", 503)
-        if resp.status_code >= 400:
+        if response.status_code >= 400:
             raise AuthError("Invalid email or password", 401)
-        return self._session(resp.json())
+        return self._parse_session(response.json())
 
     def refresh(self, refresh_token: str) -> AuthSession:
-        resp = self._post("/token", {"refresh_token": refresh_token}, {"grant_type": "refresh_token"})
-        if resp.status_code >= 500:
+        response = self._post("/token", {"refresh_token": refresh_token}, {"grant_type": "refresh_token"})
+        if response.status_code >= 500:
             raise AuthError("Auth service unavailable", 503)
-        if resp.status_code >= 400:
+        if response.status_code >= 400:
             raise AuthError("Invalid refresh token", 401)
-        return self._session(resp.json())
+        return self._parse_session(response.json())

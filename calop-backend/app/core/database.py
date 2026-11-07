@@ -1,12 +1,12 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
-from app.config import get_settings
+from app.core.config import get_settings
 
-_url = get_settings().database_url
-_connect_args = {"prepare_threshold": None} if _url.startswith("postgresql") else {}
+_database_url = get_settings().database_url
+_connect_args = {"prepare_threshold": None} if _database_url.startswith("postgresql") else {}
 
-engine = create_engine(_url, pool_pre_ping=True, connect_args=_connect_args)
+engine = create_engine(_database_url, pool_pre_ping=True, connect_args=_connect_args)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, expire_on_commit=False)
 
 
