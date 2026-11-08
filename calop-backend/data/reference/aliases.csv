@@ -1,0 +1,88 @@
+food_code,alias,kind,is_preferred
+MAIN-19,roti,common,true
+MAIN-19,chapati,spelling,true
+MAIN-19,chapatti,spelling,true
+MAIN-19,phulka,spelling,true
+MAIN-18,naan,common,true
+MAIN-18,nan,spelling,true
+MAIN-20,paratha,common,true
+MAIN-20,parata,spelling,true
+MAIN-20,parotha,spelling,true
+MAIN-21,puri,common,true
+MAIN-21,poori,spelling,true
+MAIN-22,double roti,common,true
+MAIN-22,bread,spelling,true
+MAIN-22,white bread,spelling,true
+MAIN-9,chawal,common,true
+MAIN-9,chaval,spelling,true
+MAIN-9,rice,spelling,true
+MAIN-9,boiled rice,spelling,true
+MAIN-9,plain rice,spelling,true
+MAIN-10,fried rice,common,true
+MAIN-27,chana,common,true
+MAIN-27,chole,spelling,true
+MAIN-27,cooked chickpeas,spelling,true
+MAIN-129,lassi,common,true
+MAIN-129,buttermilk,spelling,true
+MAIN-130,dahi,common,true
+MAIN-130,curd,spelling,true
+MAIN-139,yogurt,common,true
+MAIN-131,paneer,common,true
+MAIN-131,cheese,spelling,true
+MAIN-167,anda,common,true
+MAIN-167,boiled egg,spelling,true
+MAIN-71,aloo,common,true
+MAIN-71,potato,spelling,true
+MAIN-70,pyaz,common,true
+MAIN-70,onion,spelling,true
+MAIN-63,tamatar,common,true
+MAIN-63,tomato,spelling,true
+MAIN-83,seb,common,true
+MAIN-83,apple,spelling,true
+MAIN-85,kela,common,true
+MAIN-85,banana,spelling,true
+MAIN-99,aam,common,true
+MAIN-99,mango,spelling,true
+MAIN-101,tarbooz,common,true
+MAIN-101,watermelon,spelling,true
+MAIN-189,barfi,common,true
+MAIN-190,jalebi,common,true
+MAIN-190,jalebe,spelling,true
+TRAD-2,daal,common,true
+TRAD-2,dal,spelling,true
+TRAD-2,masoor daal,spelling,true
+TRAD-2,dal masoor,spelling,true
+TRAD-3,aloo gosht,common,true
+TRAD-3,alu gosht,spelling,true
+TRAD-3,aloo ghosht,spelling,true
+TRAD-4,rajma,common,true
+TRAD-4,kidney bean curry,spelling,true
+TRAD-5,kofta,common,true
+TRAD-5,kofte,spelling,true
+TRAD-6,pulao,common,true
+TRAD-6,pulav,spelling,true
+TRAD-6,beef pulao,spelling,true
+TRAD-6,yakhni pulao,spelling,true
+TRAD-7,shami kabab,common,true
+TRAD-7,shami kebab,spelling,true
+TRAD-8,chapli kabab,common,true
+TRAD-8,chapli kebab,spelling,true
+TRAD-8,chapal kabab,spelling,true
+TRAD-9,chicken curry,common,true
+TRAD-9,chicken salan,spelling,true
+TRAD-10,haleem,common,true
+TRAD-10,daleem,spelling,true
+TRAD-11,fried fish,common,true
+TRAD-11,machli,spelling,true
+TRAD-11,machli fry,spelling,true
+TRAD-12,sajji,common,true
+TRAD-13,biryani,common,true
+TRAD-13,biriyani,spelling,true
+TRAD-13,chicken biryani,spelling,true
+TRAD-14,suji halwa,common,true
+TRAD-14,sooji halwa,spelling,true
+TRAD-15,zarda,common,true
+TRAD-15,meethe chawal,spelling,true
+TRAD-16,kheer,common,true
+TRAD-17,gajar halwa,common,true
+TRAD-17,gajar ka halwa,spelling,true

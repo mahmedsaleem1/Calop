@@ -2,7 +2,7 @@ from fastapi import APIRouter
 
 from app.services.health_service import is_database_reachable
 
-router = APIRouter(prefix="/api", tags=["health"])
+router = APIRouter(prefix="/api/v1", tags=["health"])
 
 
 @router.get("/health")

@@ -1,0 +1,225 @@
+code,display_name,preparation_state,is_matchable,is_searchable
+MAIN-1,Barley Whole grain flour,processed,false,true
+MAIN-2,Corn Whole grain flour,processed,false,true
+MAIN-3,Corn Flakes,processed,true,true
+MAIN-4,Corn Bread,processed,true,true
+MAIN-5,Millet Pearl Whole grain flour,processed,false,true
+MAIN-6,Oat Whole grain flour,processed,false,true
+MAIN-7,Rye Whole grain flour,processed,false,true
+MAIN-8,Rice Polished,unknown,false,true
+MAIN-9,Rice Polished Boiled,cooked,true,true
+MAIN-10,Rice Polished Fried,cooked,true,true
+MAIN-11,Rice Flakes,processed,true,true
+MAIN-12,Sorghum whole grain flour,processed,false,true
+MAIN-13,Sorghum Bread,processed,true,true
+MAIN-14,Vermicelli,processed,true,true
+MAIN-15,Wheat Whole grain flour,processed,false,true
+MAIN-16,Wheat flour refined,processed,false,true
+MAIN-17,Wheat flour granular,processed,false,true
+MAIN-18,Naan,processed,true,true
+MAIN-19,Chapati,processed,true,true
+MAIN-20,Paratha,processed,true,true
+MAIN-21,Puri,processed,true,true
+MAIN-22,Double Roti (Bread),processed,true,true
+MAIN-23,Biscuit,processed,true,true
+MAIN-24,Broad Bean Raw,raw,false,true
+MAIN-25,Broad Bean Cooked,cooked,true,true
+MAIN-26,Chickpea Raw,raw,false,true
+MAIN-27,Chickpea Cooked,cooked,true,true
+MAIN-28,Cow Pea Raw,raw,false,true
+MAIN-29,Cow Pea Cooked,cooked,true,true
+MAIN-30,Kidney Bean Raw,raw,false,true
+MAIN-31,Kidney Bean Cooked,cooked,true,true
+MAIN-32,Lentil raw,raw,false,true
+MAIN-33,Lentil cooked,cooked,true,true
+MAIN-34,Mung Bean raw,raw,false,true
+MAIN-35,Mung Bean cooked,cooked,true,true
+MAIN-36,Mash Bean Raw,raw,false,true
+MAIN-37,Mash Bean Cooked,cooked,true,true
+MAIN-38,Pigeon Pea Raw,raw,false,true
+MAIN-39,Pigeon Pea Cooked,cooked,true,true
+MAIN-40,Pea Garden Raw,raw,false,true
+MAIN-41,Pea Garden Cooked,cooked,true,true
+MAIN-42,Soybean Seed,unknown,true,true
+MAIN-43,Sunflower Seed,unknown,true,true
+MAIN-44,Sponge Gourd (Tori),unknown,true,true
+MAIN-45,Bottle Gourd,unknown,true,true
+MAIN-46,Bitter Gourd,unknown,true,true
+MAIN-47,Brinjal (Baingan),unknown,true,true
+MAIN-48,Cauliflower,unknown,true,true
+MAIN-49,Cucumber,unknown,true,true
+MAIN-50,Cabbage,unknown,true,true
+MAIN-51,Kulfa,unknown,true,true
+MAIN-52,Lady Finger,unknown,true,true
+MAIN-53,Lettuce,unknown,true,true
+MAIN-54,Mountain ebony,unknown,true,true
+MAIN-55,Mustard leaves,unknown,true,true
+MAIN-56,Moongra,unknown,true,true
+MAIN-57,Mint Leaves,unknown,true,true
+MAIN-58,Mushroom,unknown,true,true
+MAIN-59,Pepper Sweet,unknown,true,true
+MAIN-60,Pepper Hot,unknown,true,true
+MAIN-61,Pumpkin,unknown,true,true
+MAIN-62,Spinach,unknown,true,true
+MAIN-63,Tomato,unknown,true,true
+MAIN-64,Tinda,unknown,true,true
+MAIN-65,Beet Root,unknown,true,true
+MAIN-66,Carrots,unknown,true,true
+MAIN-67,Colocasia,unknown,true,true
+MAIN-68,Garlic Bulb,unknown,true,true
+MAIN-69,Ginger,unknown,true,true
+MAIN-70,Onion,unknown,true,true
+MAIN-71,Potato,unknown,true,true
+MAIN-72,Radish,unknown,true,true
+MAIN-73,Turnip,unknown,true,true
+MAIN-74,Caraway,unknown,false,true
+MAIN-75,Cardamom,unknown,false,true
+MAIN-76,Cinnamon,unknown,false,true
+MAIN-77,Cumin Seed,unknown,false,true
+MAIN-78,Liquorice root,unknown,false,true
+MAIN-79,Clove,unknown,false,true
+MAIN-80,Turmeric,unknown,false,true
+MAIN-81,Coriander,unknown,false,true
+MAIN-82,Pepper Black,unknown,false,true
+MAIN-83,Apple,raw,true,true
+MAIN-84,Apricot,raw,true,true
+MAIN-85,Banana Ripe,raw,true,true
+MAIN-86,Black Berry,raw,true,true
+MAIN-87,Dates Dried,processed,true,true
+MAIN-88,Dates Fresh,raw,true,true
+MAIN-89,Fig Fresh,raw,true,true
+MAIN-90,Grapes,raw,true,true
+MAIN-91,Grapes (second sample),raw,false,true
+MAIN-92,Guava whole,raw,true,true
+MAIN-93,Jaman,raw,true,true
+MAIN-94,Lemon,raw,true,true
+MAIN-95,Lichi,raw,true,true
+MAIN-96,Lime,raw,true,true
+MAIN-97,Lime Sweet,raw,true,true
+MAIN-98,Loquat,raw,true,true
+MAIN-99,Mango Ripe,raw,true,true
+MAIN-100,Melon Musk,raw,true,true
+MAIN-101,Melon water,raw,true,true
+MAIN-102,Mulberry black,raw,true,true
+MAIN-103,Kinnow,raw,true,true
+MAIN-104,Mandarin (Narangi),raw,true,true
+MAIN-105,Orange Sweet,raw,true,true
+MAIN-106,Peach,raw,true,true
+MAIN-107,Pear,raw,true,true
+MAIN-108,Persimmon,raw,true,true
+MAIN-109,Pineapple,raw,true,true
+MAIN-110,Plum,raw,true,true
+MAIN-111,Pomegranate,raw,true,true
+MAIN-112,Papaya ripe,raw,true,true
+MAIN-113,Phalsa,raw,true,true
+MAIN-114,Straw-berry,raw,true,true
+MAIN-115,Ber (Desi),raw,true,true
+MAIN-116,Ber (Sova),raw,true,true
+MAIN-117,Almond,unknown,true,true
+MAIN-118,Anise,unknown,true,true
+MAIN-119,Walnut,unknown,true,true
+MAIN-120,Betel Nut,unknown,true,true
+MAIN-121,Cashew Nut,unknown,true,true
+MAIN-122,Coconut,unknown,true,true
+MAIN-123,Chilgoza roasted,cooked,true,true
+MAIN-124,Pistachio,unknown,true,true
+MAIN-125,Poppy Seed,unknown,true,true
+MAIN-126,Peanut,unknown,true,true
+MAIN-127,Sesame seed,unknown,true,true
+MAIN-128,Raisin,processed,true,true
+MAIN-129,Butter Milk,processed,true,true
+MAIN-130,Curd,processed,true,true
+MAIN-131,Cheese,processed,true,true
+MAIN-132,Cream,processed,true,true
+MAIN-133,Milk Buffalo Fluid whole,unknown,true,true
+MAIN-134,Milk Cow fluid whole,unknown,true,true
+MAIN-135,Milk Goat fluid whole,unknown,true,true
+MAIN-136,Milk Human fluid whole,unknown,false,false
+MAIN-137,Milk Cow Dried skimmed,processed,false,true
+MAIN-138,Milk cow Dried whole,processed,false,true
+MAIN-139,Yogurt,processed,true,true
+MAIN-140,Ice Cream,processed,true,true
+MAIN-141,Beef,unknown,true,true
+MAIN-142,Beef Liver,unknown,true,true
+MAIN-143,Beef Kidney,unknown,true,true
+MAIN-144,Beef heart,unknown,true,true
+MAIN-145,Buffalo meat,unknown,true,true
+MAIN-146,Chicken meat,unknown,true,true
+MAIN-147,Duck Meat,unknown,true,true
+MAIN-148,Goat meat,unknown,true,true
+MAIN-149,Goat Liver,unknown,true,true
+MAIN-150,Goat Kidney,unknown,true,true
+MAIN-151,Goat Heart,unknown,true,true
+MAIN-152,Sheep meat,unknown,true,true
+MAIN-153,Pigeon meat,unknown,true,true
+MAIN-154,Crab,unknown,true,true
+MAIN-155,Fish (Roa),unknown,true,true
+MAIN-156,Fish (Promfret),unknown,true,true
+MAIN-157,Fish (Khaga),unknown,true,true
+MAIN-158,Fish (Shanghara),unknown,true,true
+MAIN-159,Fish (Soal),unknown,true,true
+MAIN-160,Fish (Surmai),unknown,true,true
+MAIN-161,Lobster,unknown,true,true
+MAIN-162,Prawn,unknown,true,true
+MAIN-163,Shrimp,unknown,true,true
+MAIN-164,Chicken egg white (Raw),raw,false,true
+MAIN-165,Chicken egg Yolk (Raw),raw,false,true
+MAIN-166,Chicken egg whole (Raw),raw,false,true
+MAIN-167,Chicken egg Boiled,cooked,true,true
+MAIN-168,Duck egg white Raw,raw,false,true
+MAIN-169,Duck egg yolk raw,raw,false,true
+MAIN-170,Duck egg whole (Raw),raw,false,true
+MAIN-171,Duck egg boiled,cooked,true,true
+MAIN-172,Butter,processed,false,true
+MAIN-173,Ghee,processed,false,true
+MAIN-174,Ghee (buffalo),processed,false,true
+MAIN-175,Lard (Raw),raw,false,true
+MAIN-176,Dalda (Hydrogenated oil),processed,false,true
+MAIN-177,Corn Oil,processed,false,true
+MAIN-178,Soybean oil,processed,false,true
+MAIN-179,Sunflower oil,processed,false,true
+MAIN-180,Coconut oil,processed,false,true
+MAIN-181,Cotton oil,processed,false,true
+MAIN-182,Olive Oil,processed,false,true
+MAIN-183,Groundnut oil,processed,false,true
+MAIN-184,Sesame oil,processed,false,true
+MAIN-185,Sugar white,processed,true,true
+MAIN-186,Sugar Brown,processed,true,true
+MAIN-187,Gur,processed,true,true
+MAIN-188,Honey,processed,true,true
+MAIN-189,Barfi,processed,true,true
+MAIN-190,Jaleebe,processed,true,true
+MAIN-191,Koa (whole buffalo milk),processed,true,true
+MAIN-192,Halwa Sohen,processed,true,true
+MAIN-193,"Carbonated beverages Pepsi, Coke, 7-UP",processed,true,true
+MAIN-194,Lemon Juice,processed,true,true
+MAIN-195,Mango Juice,processed,true,true
+MAIN-196,Instant Coffee (Dry Powder),processed,false,true
+MAIN-197,Black Tea leaves dried,processed,false,true
+MAIN-198,Green Tea Leaves dried,processed,false,true
+TRAD-1,Chapati,cooked,false,false
+TRAD-2,Daal Masoor Curry,cooked,true,true
+TRAD-3,Alu Ghosht (Potato Meat Curry),cooked,true,true
+TRAD-4,Kalool (Kidney Bean Curry),cooked,true,true
+TRAD-5,Kofta (Meat Balls),cooked,true,true
+TRAD-6,Pulao Gosht (Rice with Beef),cooked,true,true
+TRAD-7,Shami Kabab,cooked,true,true
+TRAD-8,Chapal Kabab,cooked,true,true
+TRAD-9,Chicken Curry,cooked,true,true
+TRAD-10,Haleem,cooked,true,true
+TRAD-11,Machli (Fried Fish),cooked,true,true
+TRAD-12,Sajji (Roasted Meat),cooked,true,true
+TRAD-13,Biryani (Rice with Meat),cooked,true,true
+TRAD-14,Halwa Suji,cooked,true,true
+TRAD-15,Zarda (Sweet Rice),cooked,true,true
+TRAD-16,Kheer (Rice Pudding),cooked,true,true
+TRAD-17,Halwa Gajjar,cooked,true,true
+WEAN-1,Kitchri,processed,false,false
+WEAN-2,Rice Kheer,processed,false,false
+WEAN-3,Feerni,processed,false,false
+WEAN-4,Wheat Dalia,processed,false,false
+WEAN-5,Banana Kheer,processed,false,false
+WEAN-6,Supplementary Food Mix 1,processed,false,false
+WEAN-7,Supplementary Food Mix 2,processed,false,false
+WEAN-8,Supplementary Food Mix 3,processed,false,false
+WEAN-9,Supplementary Food Mix 4,processed,false,false

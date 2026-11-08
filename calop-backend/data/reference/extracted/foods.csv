@@ -1,0 +1,514 @@
+code,source_ref,group_code,kind,source_name,source_local_name,scientific_name,ingredients_text,preparation_method
+MAIN-1,1,cereal,ingredient,Barley Whole grain flour,Jou,Hordeum Vulgare,,
+MAIN-2,2,cereal,ingredient,Corn Whole grain flour,Makai,Zea Mays-L,,
+MAIN-3,3,cereal,ingredient,Corn Flakes,Makai,Zea Mays-L,,
+MAIN-4,4,cereal,ingredient,Corn Bread,Makai,Zea Mays-L,,
+MAIN-5,5,cereal,ingredient,Millet Pearl Whole grain flour,Bajra,Pennisetum Typhoides,,
+MAIN-6,6,cereal,ingredient,Oat Whole grain flour,Jei,Avena Sativa,,
+MAIN-7,7,cereal,ingredient,Rye Whole grain flour,Rei,Secale Cereale,,
+MAIN-8,8,cereal,ingredient,Rice Polished,Chaval,Oryza Sativa,,
+MAIN-9,9,cereal,ingredient,Rice Polished Boiled,Chaval,Oryza Sativa,,
+MAIN-10,10,cereal,ingredient,Rice Polished Fried,Chaval,Oryza Sativa,,
+MAIN-11,11,cereal,ingredient,Rice Flakes,Chaval,Oryza Sativa,,
+MAIN-12,12,cereal,ingredient,Sorghum whole grain flour,Cheri,Sorghum vulgare,,
+MAIN-13,13,cereal,ingredient,Sorghum Bread,Cheri,Sorghum vulgare,,
+MAIN-14,14,cereal,ingredient,Vermicelli,Savian,Sorghum vulgare,,
+MAIN-15,15,cereal,ingredient,Wheat Whole grain flour,Atta,Triticum aestivum,,
+MAIN-16,16,cereal,ingredient,Wheat flour refined,Maida,Triticum aestivum,,
+MAIN-17,17,cereal,ingredient,Wheat flour granular,Suji,Triticum aestivum,,
+MAIN-18,18,cereal,ingredient,Wheat Bread,Nan,Triticum aestivum,,
+MAIN-19,19,cereal,ingredient,Wheat Bread,Chapati,Triticum aestivum,,
+MAIN-20,20,cereal,ingredient,Wheat Bread,Parata,Triticum aestivum,,
+MAIN-21,21,cereal,ingredient,Wheat Bread,Puri,Triticum aestivum,,
+MAIN-22,22,cereal,ingredient,Wheat Bread,Double Roti,Triticum aestivum,,
+MAIN-23,23,cereal,ingredient,Wheat Flour,Biscuit,Triticum aestivum,,
+MAIN-24,24,legumes,ingredient,Broad Bean Raw,Lobia,Vicia Faba,,
+MAIN-25,25,legumes,ingredient,Broad Bean Cooked,Lobia,Vicia Faba,,
+MAIN-26,26,legumes,ingredient,Chickpea Raw,Channa,Cicer arietinum,,
+MAIN-27,27,legumes,ingredient,Chickpea Cooked,Channa,Cicer arietinum,,
+MAIN-28,28,legumes,ingredient,Cow Pea Raw,Rawan,Vigna unguiculat,,
+MAIN-29,29,legumes,ingredient,Cow Pea Cooked,Rawan,Vigna unguiculat,,
+MAIN-30,30,legumes,ingredient,Kidney Bean Raw,Moth,Phaseolus vulgaris,,
+MAIN-31,31,legumes,ingredient,Kidney Bean Cooked,Moth,Phaseolus vulgaris,,
+MAIN-32,32,legumes,ingredient,Lentil raw,Masur,Lens culinaris,,
+MAIN-33,33,legumes,ingredient,Lentil cooked,Masur,Lens culinaris,,
+MAIN-34,34,legumes,ingredient,Mung Bean raw,Mung,Vigna Radiata,,
+MAIN-35,35,legumes,ingredient,Mung Bean cooked,Mung,Vigna Radiata,,
+MAIN-36,36,legumes,ingredient,Mash Bean Raw,Mash,Phaseolus Radiatus,,
+MAIN-37,37,legumes,ingredient,Mash Bean Cooked,Mash,Phaseolus Radiatus,,
+MAIN-38,38,legumes,ingredient,Pigeon Pea Raw,Arhar,Cajanus cajan,,
+MAIN-39,39,legumes,ingredient,Pigeon Pea Cooked,Arhar,Cajanus cajan,,
+MAIN-40,40,legumes,ingredient,Pea Garden Raw,Matter,Pisum Sativum,,
+MAIN-41,41,legumes,ingredient,Pea Garden Cooked,Matter,Pisum Sativum,,
+MAIN-42,42,legumes,ingredient,Soybean Seed,,Glycine Max-L,,
+MAIN-43,43,legumes,ingredient,Sunflower Seed,,Helianthus annus,,
+MAIN-44,44,vegetables,ingredient,Bath Sponge,Tori,Luffa segyptice,,
+MAIN-45,45,vegetables,ingredient,Bottle Gourd,Kaddu,Legenaria vulgaris,,
+MAIN-46,46,vegetables,ingredient,Bitter Gourd,Karela,Momordica charentia,,
+MAIN-47,47,vegetables,ingredient,Bringal,Baingan,Solanum melongena,,
+MAIN-48,48,vegetables,ingredient,Cauliflower,Phool Gobhi,Brassica oleracea botrytis,,
+MAIN-49,49,vegetables,ingredient,Cucumber,Khira,Cucumis sativus,,
+MAIN-50,50,vegetables,ingredient,Cabbage,Band Gobhi,Bressica oleracea capitata,,
+MAIN-51,51,vegetables,ingredient,Kulfa,Sag kulfa,Portulaca Oleracea,,
+MAIN-52,52,vegetables,ingredient,Lady Finger,Bhindi,Hibiscus esculentus,,
+MAIN-53,53,vegetables,ingredient,Lettuce,Salad,Lactuca sativum,,
+MAIN-54,54,vegetables,ingredient,Mountain ebony,Kutchnar,Bauhinia variegata,,
+MAIN-55,55,vegetables,ingredient,Mustard leaves,Sag Sarson,Brassica compest ris-var Sarson,,
+MAIN-56,56,vegetables,ingredient,Moongra,Mongra,Raphus sativus,,
+MAIN-57,57,vegetables,ingredient,Mint Leaves,Podina,Mentha viridis,,
+MAIN-58,58,vegetables,ingredient,Mushroom,Khumbi,Agaricus campestris,,
+MAIN-59,59,vegetables,ingredient,Pepper Sweet,Mirch,Capsicum annum,,
+MAIN-60,60,vegetables,ingredient,Pepper Hot,Mirch suruk,Capsicum frutescens,,
+MAIN-61,61,vegetables,ingredient,Pumpkin,Halva Kaddu,cucrubita maxima,,
+MAIN-62,62,vegetables,ingredient,Spinach,Palak,Spinacia oleracea,,
+MAIN-63,63,vegetables,ingredient,Tomato,Tamatar,Lycopersicum esculentum,,
+MAIN-64,64,vegetables,ingredient,Tinda,Tinda,Citrulus fistulosus,,
+MAIN-65,65,roots_tubers,ingredient,Beet Root,Chakunder,Beta vulgaris,,
+MAIN-66,66,roots_tubers,ingredient,Carrots,Gajor,Daucus carota,,
+MAIN-67,67,roots_tubers,ingredient,Colocasia,Arvi,Colocasia antiquorum,,
+MAIN-68,68,roots_tubers,ingredient,Garlic Bulb,Lahsen,Allium sativum,,
+MAIN-69,69,roots_tubers,ingredient,Ginger,Adrak,Zingiber officinale,,
+MAIN-70,70,roots_tubers,ingredient,Onion,Piaz,Allium,,
+MAIN-71,71,roots_tubers,ingredient,Potato,Alu,Solanum tuberosum,,
+MAIN-72,72,roots_tubers,ingredient,Reddish,Mooli,Raphanus sativus,,
+MAIN-73,73,roots_tubers,ingredient,Turnip,Shalgum,Brassica rapa,,
+MAIN-74,74,spices,ingredient,Caraway,Ajvain,Carum capticum,,
+MAIN-75,75,spices,ingredient,Cardamon,Lachi,Elettana Cardamomum,,
+MAIN-76,76,spices,ingredient,Cinnamon,Dal Chenee,Cinnamonum Zeylanicum,,
+MAIN-77,77,spices,ingredient,Cumin Seed,Zera,Cuminum Cyminum,,
+MAIN-78,78,spices,ingredient,Liquorice root,Molut,Glycerrhiza glabra,,
+MAIN-79,79,spices,ingredient,Clove,Loung,Syzygium Aromaticum,,
+MAIN-80,80,spices,ingredient,Turmeric,Haldi,Curcuma domestica,,
+MAIN-81,81,spices,ingredient,Coriander,Dhania,Coriandrum sativum,,
+MAIN-82,82,spices,ingredient,Pepper Black,Siah Mirch,Piper Nigrum,,
+MAIN-83,83,fruits,ingredient,Apple,Seb,Malus Sylvestris,,
+MAIN-84,84,fruits,ingredient,Apricot,Khubani,Prunus armeniaca,,
+MAIN-85,85,fruits,ingredient,Banana Ripe,Kela,Musa Paradisiaca,,
+MAIN-86,86,fruits,ingredient,Black Berry,Gurguray,Rubus fruticusus,,
+MAIN-87,87,fruits,ingredient,Dates Dried,Khajur,Phoenix dectylifera,,
+MAIN-88,88,fruits,ingredient,Dates Fresh,Khajur,Phoenix dectylifera,,
+MAIN-89,89,fruits,ingredient,Fig Fresh,Angeer,Ficus Carica,,
+MAIN-90,90,fruits,ingredient,Grapes,Angoor,Vitis vinifera blue,,
+MAIN-91,91,fruits,ingredient,Grapes,Angoor,Vitis vinifera green,,
+MAIN-92,92,fruits,ingredient,Guava whole,Amrud,Psidium guajava,,
+MAIN-93,93,fruits,ingredient,Jaman,Jaman,Eugenia Jumbus,,
+MAIN-94,94,fruits,ingredient,Lemon,Limu,Citrus limon c.v.Lisbon,,
+MAIN-95,95,fruits,ingredient,Lichi,Lichi,Nephelium Litchi,,
+MAIN-96,96,fruits,ingredient,Lime,Lime,C.aurantifolia c.v.Khazi,,
+MAIN-97,97,fruits,ingredient,Lime Sweet,Mitta,C.aurantifolia c.v.Mitta,,
+MAIN-98,98,fruits,ingredient,Loquat,Khajur,Eriobotrya japonica,,
+MAIN-99,99,fruits,ingredient,Mango Ripe,Aam,Mangifera indica,,
+MAIN-100,100,fruits,ingredient,Melon Musk,Sarda,Cucumis melo,,
+MAIN-101,101,fruits,ingredient,Melon water,Tarbuz,Citrullus vulgaris,,
+MAIN-102,102,fruits,ingredient,Mulberry black,Shehtut,Morus nigra,,
+MAIN-103,103,fruits,ingredient,Mandarin,Kinno,C.reticulata c.v. Kinno,,
+MAIN-104,104,fruits,ingredient,Mandarin,Narangi,C.reticulata c.v. Narangi,,
+MAIN-105,105,fruits,ingredient,Orange Sweet,Malta,C.sinesis c.v. Malta,,
+MAIN-106,106,fruits,ingredient,Peach,Aru,Prunus Persica,,
+MAIN-107,107,fruits,ingredient,Pear,Nashpati,Pyrus communis,,
+MAIN-108,108,fruits,ingredient,Persimmon,Amlok,Diospyros Kaki,,
+MAIN-109,109,fruits,ingredient,Pineapple,Ananos,Ananas Comosus,,
+MAIN-110,110,fruits,ingredient,Plum,Alucha,Prunus domestica,,
+MAIN-111,111,fruits,ingredient,Pomegranate,Anar,Punica granatum,,
+MAIN-112,112,fruits,ingredient,Papaya ripe,Papita,Carica Papaya,,
+MAIN-113,113,fruits,ingredient,Phalsa,Falsa,Grewia asiatic,,
+MAIN-114,114,fruits,ingredient,Straw-berry,,Fragaria Spp.,,
+MAIN-115,115,fruits,ingredient,Zizyphus,Desi Ber,Zizyphus jujuba,,
+MAIN-116,116,fruits,ingredient,Zizyphus,Sova Ber,Zizyphus jujuba,,
+MAIN-117,117,nuts_dry_fruits,ingredient,Almond,Badam,Prunus amygdalus,,
+MAIN-118,118,nuts_dry_fruits,ingredient,Anise,Sonf,Foeniculum vulgare,,
+MAIN-119,119,nuts_dry_fruits,ingredient,Walnut,Akhrot,Juglans regia,,
+MAIN-120,120,nuts_dry_fruits,ingredient,Betal Nut,Sipari,Areca catechu,,
+MAIN-121,121,nuts_dry_fruits,ingredient,Cashew Nut,Kaju,Anacardium occidentale,,
+MAIN-122,122,nuts_dry_fruits,ingredient,Coconut,Kopra,Cocos nucifera,,
+MAIN-123,123,nuts_dry_fruits,ingredient,Chilgoza roasted,Chilgoza,Pinus gerardiana,,
+MAIN-124,124,nuts_dry_fruits,ingredient,Pistachio,Pista,Pistacia vera,,
+MAIN-125,125,nuts_dry_fruits,ingredient,Popy seed,Khash-khash,Papaver somniferum,,
+MAIN-126,126,nuts_dry_fruits,ingredient,Peanut,Mongphali,Pyrus communis,,
+MAIN-127,127,nuts_dry_fruits,ingredient,Sesame seed,Till,Sesamum indicum,,
+MAIN-128,128,nuts_dry_fruits,ingredient,Raisin,Kish Mish,Vitis Vinifera,,
+MAIN-129,129,dairy,ingredient,Butter Milk,Lassi,,,
+MAIN-130,130,dairy,ingredient,Curd,Dahi,,,
+MAIN-131,131,dairy,ingredient,Cheese,Paneer,,,
+MAIN-132,132,dairy,ingredient,Cream,Balai,,,
+MAIN-133,133,dairy,ingredient,Milk Buffalo Fluid whole,,,,
+MAIN-134,134,dairy,ingredient,Milk Cow fluid whole,,,,
+MAIN-135,135,dairy,ingredient,Milk Goat fluid whole,,,,
+MAIN-136,136,dairy,ingredient,Milk Human fluid whole,,,,
+MAIN-137,137,dairy,ingredient,Milk Cow Dried skimmed,,,,
+MAIN-138,138,dairy,ingredient,Milk cow Dried whole,,,,
+MAIN-139,139,dairy,ingredient,Yogurt,,,,
+MAIN-140,140,dairy,ingredient,Ice Cream,,,,
+MAIN-141,141,meat,ingredient,Beef,Gai Ka Ghost,Bos-taurus,,
+MAIN-142,142,meat,ingredient,Beef Liver,Kalajee,Bos-taurus,,
+MAIN-143,143,meat,ingredient,Beef Kidney,Gurday,Bos-taurus,,
+MAIN-144,144,meat,ingredient,Beef heart,Dil,Bos-taurus,,
+MAIN-145,145,meat,ingredient,Buffalo meat,Bains ka Ghost,Babalus Buffelus,,
+MAIN-146,146,meat,ingredient,Chicken meat,Murghi Ghost,Gallus domesticus,,
+MAIN-147,147,meat,ingredient,Duck Meat,Batak Ghost,Anas-boschas domesticus,,
+MAIN-148,148,meat,ingredient,Goat meat,Bakri Ghost,Capra hirsus,,
+MAIN-149,149,meat,ingredient,Goat Liver,Kalajee,Capra hirsus,,
+MAIN-150,150,meat,ingredient,Goat Kidney,Gurday,Capra hirsus,,
+MAIN-151,151,meat,ingredient,Goat Heart,Dil,Capra hirsus,,
+MAIN-152,152,meat,ingredient,Sheep meat,Domba Ghost,,,
+MAIN-153,153,meat,ingredient,Pigeon meat,Kabootar Ghost,Clumba domesticus,,
+MAIN-154,154,meat,ingredient,Crab,Kaikra,Portunus Pelagicus,,
+MAIN-155,155,fish,ingredient,Fish (Roa),Muchli,Labeo rohita,,
+MAIN-156,156,fish,ingredient,Fish (Promfret),Muchli,Labeo rohita,,
+MAIN-157,157,fish,ingredient,Fish (Khaga),Muchli,Labeo rohita,,
+MAIN-158,158,fish,ingredient,Fish (Shanghara),Muchli,Labeo rohita,,
+MAIN-159,159,fish,ingredient,Fish (Soal),Muchli,Ophiocephalus-striatus,,
+MAIN-160,160,fish,ingredient,Fish (Surmai),Muchli,Cybiuom Commersonii,,
+MAIN-161,161,fish,ingredient,Lobster,Jhenga,Palaemon Spp,,
+MAIN-162,162,fish,ingredient,Prawn,Jhenga,Penaeus Spp,,
+MAIN-163,163,fish,ingredient,Shrimp,Jhenga,Palaemonidae,,
+MAIN-164,164,eggs,ingredient,Chicken egg white (Raw),,,,
+MAIN-165,165,eggs,ingredient,Chicken egg Yolk (Raw),,,,
+MAIN-166,166,eggs,ingredient,Chicken egg whole (Raw),,,,
+MAIN-167,167,eggs,ingredient,Chicken egg Boiled,,,,
+MAIN-168,168,eggs,ingredient,Duck egg white Raw,,,,
+MAIN-169,169,eggs,ingredient,Duck egg yolk raw,,,,
+MAIN-170,170,eggs,ingredient,Duck egg whole (Raw),,,,
+MAIN-171,171,eggs,ingredient,Duck egg boiled,,,,
+MAIN-172,172,fats_oils,ingredient,Butter,,,,
+MAIN-173,173,fats_oils,ingredient,Ghee,,,,
+MAIN-174,174,fats_oils,ingredient,Ghee (buffalo),,,,
+MAIN-175,175,fats_oils,ingredient,Lard (Raw),,,,
+MAIN-176,176,fats_oils,ingredient,Dalda (Hydrogenated oil),,,,
+MAIN-177,177,fats_oils,ingredient,Corn Oil,,,,
+MAIN-178,178,fats_oils,ingredient,Soybean oil,,,,
+MAIN-179,179,fats_oils,ingredient,Sunflower oil,,,,
+MAIN-180,180,fats_oils,ingredient,Coconut oil,,,,
+MAIN-181,181,fats_oils,ingredient,Cotton oil,,,,
+MAIN-182,182,fats_oils,ingredient,Olive Oil,,,,
+MAIN-183,183,fats_oils,ingredient,Groundnut oil,,,,
+MAIN-184,184,fats_oils,ingredient,Sesame oil,,,,
+MAIN-185,185,sugars_beverages,ingredient,Sugar white,,,,
+MAIN-186,186,sugars_beverages,ingredient,Sugar Brown,,,,
+MAIN-187,187,sugars_beverages,ingredient,Gur,,,,
+MAIN-188,188,sugars_beverages,ingredient,Honey,,,,
+MAIN-189,189,sugars_beverages,ingredient,Barfi,,,,
+MAIN-190,190,sugars_beverages,ingredient,Jaleebe,,,,
+MAIN-191,191,sugars_beverages,ingredient,Koa (whole buffalo milk),,,,
+MAIN-192,192,sugars_beverages,ingredient,Halwa Sohen,,,,
+MAIN-193,193,sugars_beverages,ingredient,"Carbonated beverages Pepsi, Coke, 7-UP",,,,
+MAIN-194,194,sugars_beverages,ingredient,Lemon Juice,,,,
+MAIN-195,195,sugars_beverages,ingredient,Mango Juice,,,,
+MAIN-196,196,sugars_beverages,ingredient,Cofee Instant (Dry powder),,,,
+MAIN-197,197,sugars_beverages,ingredient,Black Tea leaves dried,,,,
+MAIN-198,198,sugars_beverages,ingredient,Green Tea Leaves dried,,,,
+TRAD-1,1,traditional_dishes,dish,Chapati,,,"Flour (wheat) (1 cup) - 200 g
+Iodized salt (1/2 teaspoon) - 12 g
+Water - as needed to make a dough","Add iodized salt in flour and knead by adding water till dough becomes soft.
+Leave it for 5 to 10 minutes.
+Make small round balls of it. Press these balls to make chapaties (round flat bread).
+Bake on an iron plate at medium flame."
+TRAD-2,2,traditional_dishes,dish,Daal Masoor Curry,,,"Lentil (daal masur) (1 cup) - 250 g
+Ghee/oil (4 tablespoon) - 40 g
+Garlic (crushed) (3 cloves) - 3 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1/2 teaspoon) - 2 g
+  Turmeric powder (1/4 teaspoon) - 1 g
+  Cumin seeds (1/2 teaspoon) - 2 g
+Water (4-5 cups) - 1000-1200 ml","Soak lentil in 2 cups of water for one hour.
+Add all the spices and rest of the water, cook until tender. Mix well with spoon.
+Brown garlic in oil. Add cumin seeds to it.
+Pour it over the prepared lentil.
+Serve hot with rice or chapati."
+TRAD-3,3,traditional_dishes,dish,Alu Ghosht (Potato Meat Curry),,,"Meat (Beef) - 250 g
+Ghee/Oil (5 tablespoon) - 50 g
+Potatoes (cut into pieces) (2 medium size) - 200 g
+Onion (chopped) (1 medium size) - 100 g
+Tomato (chopped) (1 medium size) - 100 g
+Garlic (crushed) (5 cloves) - 5 g
+Ginger (paste) (1 piece) - 2 g
+Coriander leaves (2 teaspoon) - 2 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1/2 teaspoon) - 2 g
+  Coriander powder (1 teaspoon) - 4 g
+  Garam masala powder (1/2 teaspoon) - 2 g
+Water (5-6 cups) - 1200-1500 ml","Fry onions, garlic and ginger in oil.
+Add meat, tomatoes and all the spices with 2 cups of water.
+Cook until meat becomes almost tender.
+Add potatoes and remaining water.
+Cook till potatoes become tender and gravy thickens.
+Sprinkle garam masala and coriander leaves on curry and serve hot."
+TRAD-4,4,traditional_dishes,dish,Kalool (Kidney Bean Curry),,,"Red kidney beans (2 cups) - 500 g
+Onion (chopped) (1 medium size) - 100 g
+Garlic (crushed) (5 cloves) - 5 g
+Tomatoes (chopped) (2 medium size) - 150 g
+Ghee/Oil (4 tablespoon) - 40 g
+Spices:
+  Coriander leaves (2 teaspoon) - 4 g
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1 teaspoon) - 4 g
+  Coriander powder (1 teaspoon) - 4 g
+  Baking soda (1 teaspoon) - 4 g
+Water (5-6 cups) - 1200-1500 ml","Soak beans in water with soda for 2 hours.
+Boil until beans become tender.
+Fry onions and garlic in oil.
+Mix tomatoes and all the spices.
+Cook until tomatoes become tender.
+Mix boiled beans, cook for 5-10 minutes.
+Sprinkle coriander leaves and serve hot."
+TRAD-5,5,traditional_dishes,dish,Kofta (Meat Balls),,,"For Kofta:
+  Minced meat (beef) - 250 g
+  Onion (1 medium size) - 100 g
+  Chillies green (2 No.) - 15 g
+  Ginger (1 piece) - 2 g
+  Spices:
+    Iodized salt (1/2 teaspoon) - 2 g
+    Chilli powder (1/2 teaspoon) - 2 g
+    Garam masala (1/2 teaspoon) - 2 g
+    Chickpea powder (2 teaspoon) - 8 g
+    Poppy seed (powder) (1/2 teaspoon) - 2 g
+For curry:
+  Ghee/oil (5 tablespoon) - 50 g
+  Onion (chopped) (1 medium size) - 100 g
+  Tomato (chopped) (1 medium size) - 100 g
+  Garlic (crushed) (5 cloves) - 5 g
+  Ginger (paste) (1 piece) - 2 g
+  Coriander (2 teaspoon) - 2 g
+  Spices:
+    Iodized salt (1/2 teaspoon) - 2 g
+    Red chilli powder (1/2 teaspoon) - 2 g
+    Turmeric powder (1/4 teaspoon) - 1 g
+    Coriander (1 teaspoon) - 4 g
+    Garam masala (1/2 teaspoon) - 2 g
+  Water (4-5 cups) - 1000-1200 ml","Chop all the ingredients of kofta in electric chopper for 4-5 minutes.
+Make small meat balls and keep aside.
+For curry, fry onions, garlic, ginger in oil.
+Add all the spices and tomatoes with 1/2 cup of water.
+Cook till onion and tomatoes becomes tender.
+Add meat balls and cook for 1/2 an hour.
+Sprinkle garam masala and coriander leaves on it, serve hot."
+TRAD-6,6,traditional_dishes,dish,Pulao Gosht (Rice with Beef),,,"Beef - 250 g
+Rice (3 cups) - 400 g
+Ghee/oil (5 tablespoon) - 50 g
+Onion (chopped) (1 medium size) - 100 g
+Garlic (crushed) (5 cloves) - 5 g
+Ginger (paste) (1 piece) - 2 g
+Tomato (chopped) (1 medium) - 100 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chili powder (1/2 teaspoon) - 2 g
+  Garam masla powder (1/2 teaspoon) - 2 g
+Water (9-10 cups) - 1500-2000 ml","Boil meat with water, iodized salt and garlic until meat is nearly tender. Take it out of the soup and set aside.
+Brown onions in oil. Add ginger, tomatoes, meat and all the spices. Fry meat well.
+Add rice and soup.
+Cook until all the water is absorbed and the rice becomes well done.
+Serve hot."
+TRAD-7,7,traditional_dishes,dish,Shami Kabab,,,"Minced Meat (Beef) - 500 g
+Daal channa (1 cup) - 250 g
+Onion (1 medium size) - 100 g
+Garlic (8 cloves) - 8 g
+Ginger (1 large piece) - 10 g
+Ghee/oil (4 tablespoon) - 40 g
+Eggs (2 No.) - (amount not given)
+Spices:
+  Iodized salt (2 teaspoon) - 8 g
+  Red chilli powder (1 1/2 teaspoon) - 6 g
+  Coriander powder (2 teaspoon) - 8 g
+  Garam masala powder (1 teaspoon) - 4 g
+Water (4 cups) - 1000 ml","Boil minced meat, daal channa, onion, ginger, garlic with water and all the spices till meat and daal becomes tender and water dries.
+Chop them in electric chopper for 4-5 minutes.
+Make small round cakes.
+Dip in beaten egg and fry in oil till brown.
+Serve hot."
+TRAD-8,8,traditional_dishes,dish,Chapal Kabab,,,"Minced meat (beef) - 250 g
+Onion (chopped) (2 medium size) - 150 g
+Green chillies (chopped) (2 No.) - 20 g
+Ghee/oil (4 tablespoon) - 40 g
+Eggs (2 No.) - (amount not given)
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1 teaspoon) - 4 g
+  Coriander powder (1 teaspoon) - 4 g
+  Garam masala powder (1/2 teaspoon) - 2 g","Add all the ingredients in minced meat and mix well.
+Make medium size round cakes and fry them well in oil.
+Serve hot."
+TRAD-9,9,traditional_dishes,dish,Chicken Curry,,,"Chicken - 500 g
+Ghee/oil (10 tablespoon) - 100 g
+Onion (chopped) (2 medium size) - 200 g
+Tomatoes (chopped) (2 medium size) - 200 g
+Garlic (crushed) (10 cloves) - 10 g
+Ginger (crushed) (1 piece) - 5 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1 teaspoon) - 4 g
+  Coriander powder (1 teaspoon) - 4 g
+  Turmeric powder (1/4 teaspoon) - 1 g
+  Garam masala powder (1/2 teaspoon) - 2 g
+Water (2 cup) - 500 ml","Fry chicken pieces in oil and keep aside.
+In the same oil fry onions, ginger & garlic.
+Add spices and tomatoes. Fry well so it resembles a paste.
+Add chicken pieces and cook until chicken is almost tender.
+Add water & simmer for 10 minutes.
+Add garam masala & coriander leaves and serve hot."
+TRAD-10,10,traditional_dishes,dish,Haleem,,,"Beef (boneless) - 1000 g
+Mung daal (1 cup) - 125 g
+Masur daal (1 cup) - 125 g
+Channa daal (1 cup) - 125 g
+Mash daal (1 cup) - 125 g
+Wheat grains (crushed) dalia (1 cup) - 125 g
+Oat grains (crushed) (1 cup) - 125 g
+Rice (1/2 cup) - 50 g
+Ghee/oil (8 tablespoon) - 80 g
+Onion (chopped) (3 medium size) - 150 g
+Tomatoes (chopped) (3 medium size) - 150 g
+Garlic (10 cloves) - 10 g
+Ginger (crushed) (2 piece) - 10 g
+Mint leaves - 8 g
+Lemon (2 No) - (amount not given)
+Spices:
+  Iodized salt (2 teaspoon) - 8 g
+  Red chilli powder (1 1/2 teaspoon) - 6 g
+  Coriander powder (2 teaspoon) - 8 g
+  Turmeric powder (1/2 teaspoon) - 2 g
+  Garam masala (1/2 teaspoon) - 4 g
+Water (2 cup) - 500 ml","Boil all daals till tender.
+Mash them and keep aside.
+Fry 1 onion and garlic in half of oil.
+Add meat, tomatoes, rest of the water and all the spices.
+Cook till meat become tender.
+Add mashed daals and mash again with meat.
+Fry rest of the onions in oil.
+Pour over prepared haleem.
+Garnish with mint leaves and lemon and serve hot."
+TRAD-11,11,traditional_dishes,dish,Machli (Fried Fish),,,"Fish cleaned (cut into pieces) (1 medium) - 500 g
+Ghee/Oil (8 tablespoon) - 80 g
+Garlic (crushed) (15 cloves) - 15 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1/2 teaspoon) - 2 g
+  Coriander powder (1 teaspoon) - 4 g
+  Garam masala (1/2 teaspoon) - 2 g
+  Ajwain (1/4 teaspoon) - 1 g
+Vinegar (4 tablespoon) - 40 ml","Iodized salt the fish, let stand for one hour and then wash thoroughly.
+Mix all spices with crushed garlic and vinegar.
+Add spices to fish and mix well.
+Fry in hot oil until brown.
+Serve hot."
+TRAD-12,12,traditional_dishes,dish,Sajji (Roasted Meat),,,"Lamb's leg (1 piece) - 500 g
+Iodized salt (3 teaspoon) - 12 g
+Ghee/oil (4 tablespoon) - 40 g","Iodized salt lamb's leg and pierce a rod in it.
+Light the coal fire.
+Arrange lamb's leg around it.
+Rub oil on lamb's leg time to time.
+When the meat is well done, take out of the rod and serve hot."
+TRAD-13,13,traditional_dishes,dish,Biryani (Rice with Meat),,,"Chicken meat - 250 g
+Rice (2 cups) - 200 g
+Onion (chopped) (1 medium) - 100 g
+Tomato (chopped) (1 medium) - 100 g
+Garlic (crushed) (5 cloves) - 5 g
+Potato (cut into pieces) (1 small) - 80 g
+Ghee/oil (5 tablespoon) - 50 g
+Spices:
+  Iodized salt (1 teaspoon) - 4 g
+  Red chilli powder (1/2 teaspoon) - 2 g
+  Coriander powder (1 teaspoon) - 4 g
+  Turmeric powder (1/4 teaspoon) - 1 g
+  Garam masala powder (1 teaspoon) - 4 g
+Water (8 cups) - 2000 ml","Fry onion and garlic in oil.
+Add all the spices, meat and tomatoes.
+Cook well.
+Add two cups of water and potatoes, cook until meat and potatoes becomes tender. Set aside.
+Cook rice with water until rice become half done. Strain and set aside.
+Mix rice and meat.
+Cook over low heat for 30 minutes and serve hot."
+TRAD-14,14,traditional_dishes,dish,Halwa Suji,,,"Semolina (Suji) - 150 g
+Ghee (10 tablespoon) - 100 g
+Sugar (12 tablespoon) - 120 g
+Cardamon (1 teaspoon) - 4 g
+Water (2 cups) - 500 ml","Fry cardamon in ghee.
+Add semolina and fry well till it becomes golden brown in colour.
+Add sugar and fry well.
+Add hot water and let simmer for 15-20 minutes till it is cooked.
+Serve hot."
+TRAD-15,15,traditional_dishes,dish,Zarda (Sweet Rice),,,"Rice (2 cups) - 250 g
+Sugar (1 1/2 cups) - 200 g
+Ghee/oil (5 tablespoon) - 50 g
+Cardamon (1/2 teaspoon) - 2 g
+Almonds and Pistachio (5 tablespoon) - 50 g
+Orange food Colour - 1 g
+Water (4 cups) - 1000 ml","Boil rice with fruit colour in 8 glasses of water till half done.
+Strain rice and set aside.
+Fry cardamon in oil. Add sugar and little water.
+Add rice and simmer on low flame for 10-15 minutes.
+Add almonds and pistachio on top.
+Serve hot."
+TRAD-16,16,traditional_dishes,dish,Kheer (Rice Pudding),,,"Whole milk (2 cups) - 500 ml
+Cream (1/2 cup) - 125 g
+Sugar (1/2 cup) - 125 g
+Rice (1 cup) - 100 g
+Cardamon (1/2 teaspoon) - 2 g
+Almond and Pistachio (2 tablespoon) - 20 g
+Water (2 cups) - 500 ml","Boil rice in water.
+Mash rice and add milk and cream.
+Cook till it becomes creamy.
+Add sugar and cook well.
+Add cardamon, almonds and pistachio.
+Chill and serve."
+TRAD-17,17,traditional_dishes,dish,Halwa Gajjar,,,"Red carrots (shredded) (3-4 No) - 500 g
+Sugar (1 cup) - 250 g
+Ghee (1 1/2 cup) - 250 g
+Milk (4 cups) - 1000 ml
+Cardamon (1/2 teaspoon) - 2 g
+Almond and Pistachio (2 tablespoon) - 20 g","Boil carrots with milk, till milk becomes dry and carrots tender.
+Add sugar and cook well.
+Add ghee and cardamons and cook till mixture leaves ghee.
+Add almonds and pistachio and serve hot."
+WEAN-1,1,weaning_foods,recipe,Kitchri,,,"Rice - 60 g
+Dal Mung - 30 g
+Iodized salt (Iodized) - to taste
+Fat/Oil (fortified with Vit.A) - 5 g","Clean and wash rice and dal mung. Soak for 1/2 hour.
+Take one cup of water, rice, dal mung and iodized salt in a deep saucepan.
+Cook on medium flame for 20-25 minutes, till rice and dal becomes soft.
+Mash these and add one teaspoon of hot oil/fat, remove from the flame and serve warm."
+WEAN-2,2,weaning_foods,recipe,Rice Kheer,,,"Rice - 30 g
+Milk - 120 ml
+Sugar - 5 g","Clean and wash rice and soak for 1/2 an hour.
+Add 1/2 cup of water and rice in a deep sauce pan.
+Cook on medium flame for 20-25 minutes till rice becomes soft.
+Mash rice with spoon or electric blender.
+Mix sugar and milk to it and again cook on medium flame for 10 minutes till it becomes soft and creamy in consistency, serve warm."
+WEAN-3,3,weaning_foods,recipe,Feerni,,,"Wheat flour-suji (Samolina) - 20 g
+Milk - 120 ml
+Sugar - 5 g","Fry suji without oil in a deep saucepan, till it becomes brown.
+Add milk and sugar to it and cook on medium flame for 10-15 minutes till it becomes soft and creamy in consistency.
+Turn off the flame and serve warm."
+WEAN-4,4,weaning_foods,recipe,Wheat Dalia,,,"Dalia (Shredded wheat) - 20 g
+Milk - 120 ml
+Sugar - 5 g
+Water - 200 ml","Thoroughly clean Dalia and then soak for 1/2 an hour.
+Add 1 cup of water and dalia in a deep sauce pan.
+Cook on low flame for 15-20 minutes till it becomes tender.
+Turn off the flame.
+Add milk and sugar and serve warm."
+WEAN-5,5,weaning_foods,recipe,Banana Kheer,,,"Banana - 80 g
+Milk - 120 ml
+Sugar - 5 g","Mash the peeled banana with spoon, add boiled milk and sugar.
+Mix to creamy consistency and serve."
+WEAN-6,6,weaning_foods,recipe,Recipe-1,,,"Wheat Flour - 30 g
+Roasted Channa - 30 g
+Fat/Oil - 10 g
+Gur, Raw sugar or refined sugar - 30 g","Fry wheat flour with oil/fat in a deep saucepan till brown.
+Grind channa and sugar in a grinder.
+Mix these with fried wheat flour and serve."
+WEAN-7,7,weaning_foods,recipe,Recipe-2,,,"Wheat Flour - 40 g
+Groundnuts - 40 g
+Gur, Raw sugar or refined sugar - 20 g","Fry wheat flour in a deep saucepan.
+Grind roasted groundnuts and sugar in a grinder.
+Mix these with fried wheat flour and serve."
+WEAN-8,8,weaning_foods,recipe,Recipe-3,,,"Dal Channa - 35 g
+Groundnut - 35 g
+Gur, Raw sugar or refined sugar - 30 g","Grind roasted dal channa, roasted groundnut and gur/refined sugar in a grinder.
+Mix these and serve."
+WEAN-9,9,weaning_foods,recipe,Recipe-4,,,"Wheat flour - 30 g
+Groundnut - 20 g
+Dal Mung - 20 g
+Gur, raw sugar or refined sugar - 30 g","Fry wheat flour in a pan till it becomes brown.
+Roast dal mung and groundnuts in a separate sauce pan.
+Grind roasted dal mung, groundnuts and sugar in a grinder and mix with the fried wheat flour and serve."

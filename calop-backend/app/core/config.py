@@ -14,8 +14,19 @@ class Settings(BaseSettings):
     cloudinary_api_key: str
     cloudinary_api_secret: str
 
-    max_image_bytes: int = 5 * 1024 * 1024
-    cors_origins: str = "*"  # comma-separated list; tighten when the web app has a fixed URL
+    vision_ai_provider: str = "gemini"  # label stored on each recognition run
+    vision_ai_base_url: str = "https://generativelanguage.googleapis.com/v1beta/openai/"
+    vision_ai_api_key: str
+    vision_ai_model: str
+    vision_ai_reasoning_effort: str | None = "low"  # sent only if set; lowers latency
+    vision_ai_timeout_seconds: float = 30
+    vision_auto_log_threshold: float = 0.90
+
+    local_image_dir: str = "storage/captures"
+    max_device_image_bytes: int = 5 * 1024 * 1024
+    max_phone_image_bytes: int = 12 * 1024 * 1024  # Gemini's inline request limit is 20 MB after base64
+    worker_threads: int = 4
+    cors_origins: str = "*"  # comma-separated list
 
     @field_validator("database_url")
     @classmethod

@@ -27,6 +27,8 @@ class CloudinaryImageStorage(ImageStorage):
 
     def delete(self, public_id: str) -> None:
         try:
-            cloudinary.uploader.destroy(public_id, resource_type="image")
+            result = cloudinary.uploader.destroy(public_id, resource_type="image", invalidate=True)
         except Exception as exc:
             raise StorageError(str(exc)) from exc
+        if result.get("result") not in ("ok", "not found"):  # "not found" means it is already gone
+            raise StorageError(f"Cloudinary did not delete {public_id}: {result}")

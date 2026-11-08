@@ -1,0 +1,16 @@
+code,name,sort_order
+cereal,Cereal,1
+legumes,Legumes,2
+vegetables,Vegetables,3
+roots_tubers,Roots and Tubers,4
+spices,Spices,5
+fruits,Fruits,6
+nuts_dry_fruits,Nuts and Dry Fruits,7
+dairy,Dairy,8
+meat,Meat,9
+fish,Fish,10
+eggs,Eggs,11
+fats_oils,Fats and Oil,12
+sugars_beverages,Sugars and Beverages,13
+traditional_dishes,Traditional Foods,14
+weaning_foods,Weaning Foods,15
